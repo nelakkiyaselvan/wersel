@@ -7,7 +7,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 Wersel.io Responsive UI
 
 ## Description:
-This is a prototypical implementation of responsive product detail page with product list.
+This is a prototypical implementation of responsive search list page.
 
 ## Table of Contents
 
