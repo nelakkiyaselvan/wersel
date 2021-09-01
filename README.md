@@ -1,49 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Getting Started with Create React App
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Title
-Wersel.io Responsive UI
+## Available Scripts
 
-## Description:
-This is a prototypical implementation of responsive product detail page with product list.
+In the project directory, you can run:
 
-## Table of Contents
+### `yarn start`
 
-- [Setting of the Project](#Setting-of-the-Project)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Setting of the Project
+### `yarn test`
 
-To Run the project follow below commands:
-* Pull the repro from `https://github.com/nelakkiyaselvan/wersel.git`
-* Run the `npm install` in the wersel folder
-* After the successfull installation run the `npm start` in the code-craft folder
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Tech Stack
-* React JS
-* HTML
-* CSS
+### `yarn build`
 
-## Test Cases
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Page loaded as per design. - Pass
-2. UI fits perfectly for desktop & mobile views. - Pass
-3. Render the tab list from the JSON Object. - Pass
-4. Render the table list from the JSON Object. - Pass
-5. Clicking on the tab button will change the tab. - Pass
-6. Render the pagination based on the limit of the content. - Pass
-7. Clicking on the page number will load the respective list in the table. - Pass
-8. Clicking on the prev & next button will load the respective page in the table. - Pass
-9. Disabling the prev button at the first page. - Pass
-10. Disabling the next button at the last page. - Pass
-11. Showing the total number of list. - Pass
-12. Tab section hided in mobile view - Pass
-13. Mobile view list having own list caption. - Pass
-14. API Fail handled. - Pass
-15. In mobile view Portrait and Landscape orientation change handled. - Pass
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Notes:
-1. All data rendered dynamically and we can reuse the template for different list.
-2. I haven't used any third-party plugins.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

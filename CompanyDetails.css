@@ -1,0 +1,55 @@
+
+.listView {
+  background-color: #fff;
+  border-top-left-radius: 15px;
+  margin-left: 50px;
+  margin-top: 50px;
+  min-height: 100%;
+  width: 100%;
+}
+
+.overviewHeader {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.paginationList {
+  display: flex;
+  width: 70vh;
+}
+
+.pagination {
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.pagination.disable {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.pagination.selected {
+  background: #D4D3E0;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .listView {
+    border-radius: unset;
+    margin-left: 0;
+  }
+
+  .overviewHeader {
+    margin-right: 20px;
+    text-align: end;
+  }
+}
